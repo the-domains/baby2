@@ -1,14 +1,26 @@
-layout_spectrum: 0.13388170045800507
+layout_spectrum: 0.1338817004580051
+name: baby2
 typography_spectrum: 0.958609756315127
 color:
   brandStrength: 0.6472129295580089
-  lightness: 0.307457217015326
-  saturation: 0.48968306626193225
-  rhythmicContrast: 0.8310740489978343
+  saturation: 0.4896830662619323
   brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
-name: baby2
+    - '#6C6E58'
+    - '#3E423A'
+    - '#417378'
+    - '#A4CFBE'
+    - '#F4F7D9'
+  lightness: 0.307457217015326
+  rhythmicContrast: 0.8310740489978343
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
